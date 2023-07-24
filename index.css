@@ -4,6 +4,16 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  
+  font-family: Montserrat;
+  src: url(assets/Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+@font-face{
+  font-family: Fraunces;
+  src: url(assets/Frauces/Fraunces-VariableFont_SOFT\,WONK\,opsz\,wght.ttf);
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
@@ -17,6 +27,7 @@ body {
   margin-top: 2em;
   margin-left: 1em;
   margin-right: 1em;
+  margin-bottom: 20em;
   place-items: center;
   background-color: hsl(30, 38%, 92%);
 }
@@ -25,7 +36,7 @@ main {
   border-radius: 1em;
   background-color: turquoise;
   display: grid;
-  grid-template-rows: 40% 59% 1%;
+  grid-template-rows: 18em 27em;
 }
 
 section{
@@ -37,10 +48,48 @@ section{
 }
 article{
   padding-left: 2em;
+  border-bottom-left-radius: 1em;
+  border-bottom-right-radius: 1em;
 }
 .perfume-img{
   width: 100%;
   height: 100%;
-  object-fit: cover;
 }
 
+h2{
+  font-family: Montserrat;
+  font-weight: 500;
+  color: hsl(228, 12%, 48%);
+}
+h1{
+  font-family: Fraunces;
+  font-weight: 700;
+}
+p{
+  font-family: Montserrat;
+  font-weight: 500;
+  color: hsl(228, 12%, 48%);
+  
+}
+span{
+  font-family: Fraunces;
+  font-weight: 700;
+  color: green;
+}
+.numbers{
+  
+}
+button{
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 1.2em;
+  color: white;
+  background-color: hsl(158, 36%, 37%);
+  border: 0;
+  border-radius: .5em;
+  padding: .8em;
+  width: 90%;
+}
+button>img{
+  padding-right: .5em;
+}
