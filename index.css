@@ -33,7 +33,7 @@ body {
 }
 
 main {
-  border-radius: 1em;
+  border-radius: .5em;
   background-color: white;
   display: grid;
   grid-template-rows: 38% 58%;
@@ -43,18 +43,20 @@ section{
   display: grid;
   place-items: center;
   overflow: hidden;
-  border-top-left-radius: 1em;
-  border-top-right-radius: 1em;
+  border-top-left-radius: .5em;
+  border-top-right-radius: .5em;
+  
 }
 article{
   padding-left: 1.6em;
   padding-right: 1.6em;
-  border-bottom-left-radius: 1em;
-  border-bottom-right-radius: 1em;
+  border-bottom-left-radius: .5em;
+  border-bottom-right-radius: .5em;
 }
 .perfume-img{
   width: 100%;
   height: 100%;
+  
 }
 
 h2{
@@ -117,12 +119,13 @@ button>img{
     display: grid;
     grid-template-rows: none;
     grid-template-columns: 50% 50%;
-    height: 60vh;
+    height: 26em;
     width: 40em;
   }
 
   section{
     border-radius: 0;
+    border-bottom-left-radius: .5em;
   }
   article{
     border-radius: 0;
@@ -130,7 +133,12 @@ button>img{
   .perfume-img{
     width: 100%;
     height: 100%;
-    border-top-left-radius: 1em;
-    border-bottom-left-radius: 1em;
+    border-top-left-radius: .5em;
+    border-bottom-left-radius: .5em;
+  }
+
+  button:hover{
+    background-color: hsl(160, 43%, 19%);
+
   }
 }
